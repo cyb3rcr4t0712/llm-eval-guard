@@ -10,14 +10,17 @@ from validators.hallucination import validate_hallucination
 from validators.scoring import score_validations
 from runner.utils import load_dataset
 
+
 # ---------- Load Config ----------
 with open("config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 # ---------- Logging ----------
+Path("logs").mkdir(exist_ok=True)
+
 logging.basicConfig(
-    level=getattr(logging, config["logging"]["level"]),
-    filename=config["logging"]["file"],
+    level=logging.INFO,
+    filename="logs/failures.log",
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
