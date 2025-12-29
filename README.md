@@ -1,7 +1,8 @@
 # 🚦 LLM Eval Guard
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
+
 
 **Prevent silent AI failures before they hit production**
 
