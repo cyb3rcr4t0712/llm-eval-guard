@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Logs & reports (generated artifacts)
+logs/
+reports/latest_report.json
+
+# OS
+.DS_Store
+Thumbs.db

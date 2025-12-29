@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "input": "Explain OAuth to a backend engineer. Focus on access tokens and refresh tokens."
+  },
+  {
+    "id": 2,
+    "input": "What is rate limiting in APIs and why is it important?"
+  },
+  {
+    "id": 3,
+    "input": "Explain SQL joins with a simple example using two tables."
+  },
+  {
+    "id": 4,
+    "input": "Briefly explain OAuth in one paragraph."
+  },
+  {
+    "id": 5,
+    "input": "Explain OAuth and include security best practices."
+  },
+  {
+    "id": 6,
+    "input": "Explain rate limiting without using bullet points."
+  },
+  {
+    "id": 7,
+    "input": "What are common mistakes developers make with API authentication?"
+  },
+  {
+    "id": 8,
+    "input": "Explain SQL joins to a non-technical product manager."
+  }
+]

@@ -1,0 +1,18 @@
+llm:
+  provider: ollama
+  model: gemma3:4b
+
+evaluation:
+  min_length: 300
+  required_keywords:
+    - token
+    - api
+  allowed_entities:
+    - OAuth
+    - HTTP
+    - API
+    - SQL
+
+logging:
+  level: INFO
+  file: logs/failures.log
